@@ -1,0 +1,335 @@
+@media (max-width: 2400px) {
+  .adv__img {
+    background-image: url(../img/adv-1110.svg);
+  }
+}
+
+@media (max-width: 992px) {
+
+  .container {
+    max-width: 720px;
+  }
+
+  .hero__content {
+    background-image: url(../img/hero-690.png);
+    background-position: 100% 42%;
+    background-size: 48%;
+  }
+
+  .descr {
+    width: 101%;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 14px;
+  }
+
+  .hero__descr {
+    margin-bottom: 65px;
+  }
+
+  .adv {
+    padding-bottom: 72px;
+  }
+
+  .adv__text {
+    max-width: 65%;
+  }
+
+  .adv__top {
+    width: 100%;
+  }
+
+  .adv__img {
+    min-width: 211px;
+    height: 187px;
+    background-image: url(../img/adv-768.svg);
+  }
+
+  .adv__title {
+    max-width: 100%;
+  }
+
+  .adv-descr {
+    max-width: 100%;
+  }
+
+  .adv__list {
+    padding-left: 0;
+  }
+
+  .adv__item {
+    flex-direction: column;
+    align-items: start;
+    gap: 13px;
+  }
+
+  .teachers {
+    padding-bottom: 50px;
+  }
+
+  .teachers-item {
+    margin-bottom: 24px;
+  }
+
+  .courses {
+    padding-bottom: 52px;
+  }
+  .courses__title {
+    margin-bottom: 23px;
+  }
+
+  .courses-list__time {
+    right: 10px;
+    top: 12px;
+  }
+
+  .courses-list__item {
+    min-height: 556px;
+  }
+
+  .courses-list__img1 {
+    background-image: url(../img/crs-768-1.jpg);
+  }
+
+  .courses-list__img2 {
+    background-image: url(../img/crs-768-2.jpg);
+  }
+
+  .courses-list__img3 {
+    background-image: url(../img/crs-768-3.jpg);
+  }
+
+  .courses-list__img4 {
+    background-image: url(../img/crs-768-4.jpg);
+  }
+}
+
+@media (max-width: 650px) {
+
+  .container {
+    max-width: 540px;
+  }
+
+  .courses-list__btn {
+    padding: 21px 47px;
+  }
+
+  .header-container {
+    height: 133px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+
+  .logo {
+    align-self: center;
+  }
+
+  .hero__content {
+    min-height: 567px;
+    background-image: none;
+  }
+
+  .hero__text {
+    padding-bottom: 11%;
+  }
+
+  .adv {
+    padding-bottom: 55px;
+  }
+
+  .adv__top {
+    align-items: flex-start;
+  }
+
+  .adv__img {
+    min-width: 150px;
+    height: 134px;
+    background-image: url(../img/adv-576.svg);
+  }
+
+  .adv__text {
+    max-width: 65%;
+  }
+
+  .adv__item {
+    gap: 13px;
+  }
+
+  .teachers {
+    padding-bottom: 48px;
+  }
+
+  .courses {
+    padding-bottom: 48px;
+  }
+
+  .courses__title {
+    margin-bottom: 25px;
+  }
+
+  .courses-list__title {
+    line-height: 23px;
+  }
+
+  .courses-list__text {
+    padding-right: 19px;
+  }
+
+  .courses-list__descr {
+    margin-bottom: 45px;
+  }
+
+  .courses-list__img1 {
+    background-image: url(../img/crs-576-1.jpg);
+  }
+
+  .courses-list__img2 {
+    background-image: url(../img/crs-576-2.jpg);
+  }
+
+  .courses-list__img3 {
+    background-image: url(../img/crs-576-3.jpg);
+  }
+
+  .courses-list__img4 {
+    background-image: url(../img/crs-576-4.jpg);
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 320px;
+
+  }
+
+  .h2title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .header {
+    height: 118px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 118px;
+    width: 100%;
+  }
+
+  .block {
+    display: block;
+    overflow-x: scroll;
+  }
+
+  .header-nav {
+    align-self: flex-start;
+    padding-left: 15px;
+
+  }
+
+  .hero__content {
+    min-height: 353px;
+  }
+
+  .hero__text {
+    padding-bottom: 0;
+  }
+
+  .hero__title {
+    margin-bottom: 5px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .hero__descr {
+    margin-bottom: 44px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .hero__btn {
+    padding: 19px 54px;
+    font-size: 16px;
+  }
+
+  .adv {
+    padding: 50px 0;
+  }
+
+  .adv__text {
+    max-width: 99%;
+    margin-left: 0;
+  }
+
+  .adv__title {
+    margin-bottom: 2px;
+  }
+
+  .adv__img {
+    display: none;
+  }
+
+  .adv__list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .adv__item {
+    flex-direction: row;
+  }
+
+  .adv__icon {
+    margin-right: 15px;
+  }
+
+  .teachers {
+    padding: 46px 0 25px;
+  }
+
+  .teachers-img {
+    margin-bottom: 26px;
+  }
+
+  .courses {
+    padding: 43px 0 18px;
+  }
+
+  .courses-list__item {
+    min-height: 653px;
+  }
+
+  .courses-list__title {
+    max-width: 80%;
+  }
+
+  .courses-list__descr {
+    max-width: 94%;
+  }
+
+  .courses-list__img1 {
+    background-image: url(../img/crs-m1.jpg);
+  }
+
+  .courses-list__img2 {
+    background-image: url(../img/crs-m2.jpg);
+  }
+
+  .courses-list__img3 {
+    background-image: url(../img/crs-m3.jpg);
+  }
+
+  .courses-list__img4 {
+    background-image: url(../img/crs-m4.jpg);
+  }
+
+  .courses-list__btn {
+    padding: 21px 57px;
+  }
+}
